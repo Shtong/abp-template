@@ -10,8 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{BB54106D-C363-4819-AE0D-6277F4DA3903}"
+	ProjectSection(SolutionItems) = preProject
+		templates\AbpStarter.Base\.template.config\template.json = templates\AbpStarter.Base\.template.config\template.json
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpStarter.Core", "templates\Abp.Starter.Base\Abp.Starter.Core\AbpStarter.Core.csproj", "{90325A4F-9DA7-4F0C-A3AB-986FFD7387AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpStarter.Core", "templates\AbpStarter.Base\AbpStarter.Core\AbpStarter.Core.csproj", "{90325A4F-9DA7-4F0C-A3AB-986FFD7387AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
