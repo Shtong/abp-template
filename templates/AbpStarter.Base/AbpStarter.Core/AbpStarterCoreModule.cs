@@ -12,6 +12,7 @@
     [DependsOn(typeof(AbpZeroCoreModule))]
     public class AbpStarterCoreModule : AbpModule
     {
+        /// <inheritdoc />
         public override void PreInitialize()
         {
             // Add actions from anonymous users in the audit log
@@ -21,6 +22,12 @@
             Configuration.Modules.Zero().EntityTypes.User = typeof(User);
             Configuration.Modules.Zero().EntityTypes.Role = typeof(Role);
             Configuration.Modules.Zero().EntityTypes.Tenant = typeof(Tenant);
+        }
+
+        /// <inheritdoc />
+        public override void Initialize()
+        {
+            IocManager.RegisterAssemblyByConvention(GetType().Assembly);
         }
     }
 }
