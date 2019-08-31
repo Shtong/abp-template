@@ -1,4 +1,4 @@
-﻿namespace Abp.Starter.Core
+﻿namespace AbpStarter.Core
 {
     using Abp.Modules;
     using Abp.Zero;
