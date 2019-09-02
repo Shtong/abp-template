@@ -1,7 +1,7 @@
-﻿namespace AbpStarter.Core.MultiTenancy
+﻿namespace Abp.Starter.Core.MultiTenancy
 {
     using Abp.MultiTenancy;
-    using AbpStarter.Core.Authentication;
+    using Abp.Starter.Core.Authentication;
 
     /// <summary>
     /// Represents a tenant registered in the system

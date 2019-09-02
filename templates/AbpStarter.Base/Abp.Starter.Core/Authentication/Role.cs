@@ -1,4 +1,4 @@
-﻿namespace AbpStarter.Core.Authentication
+﻿namespace Abp.Starter.Core.Authentication
 {
     using Abp.Authorization.Roles;
 

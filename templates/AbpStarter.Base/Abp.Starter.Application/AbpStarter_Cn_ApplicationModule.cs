@@ -1,8 +1,8 @@
-﻿namespace AbpStarter.Application
+﻿namespace Abp.Starter.Application
 {
     using Abp.AutoMapper;
     using Abp.Modules;
-    using AbpStarter.Core;
+    using Abp.Starter.Core;
     using System.Reflection;
 
     /// <summary>
@@ -11,7 +11,7 @@
     [DependsOn(
         typeof(AbpStarterCoreModule),
         typeof(AbpAutoMapperModule))]
-    public class AbpStarterApplicationModule : AbpModule
+    public class AbpStarter_Cn_ApplicationModule : AbpModule
     {
         public override void Initialize()
         {

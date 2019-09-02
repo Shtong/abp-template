@@ -8,7 +8,7 @@
   "identity": "AbpStarter.Base",
   "name": "ABP Starter : Base projects",
   "shortName": "abpbase",
-  "sourceName": "AbpStarter",
+  "sourceName": "Abp.Starter",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -25,5 +25,21 @@
         "**/.vs/**"
       ]
     }
-  ]
+  ],
+  "symbols": {
+    "className": {
+      "type": "derived",
+      "replaces": "AbpStarter_Cn_",
+      "FileRename": "AbpStarter_Cn_",
+      "valueSource": "name",
+      "valueTransform": "classNameForm"
+    }
+  },
+  "forms": {
+    "classNameForm": {
+      "identifier": "replace",
+      "pattern": "[^a-zA-Z0-9_]",
+      "replacement": ""
+    }
+  }
 }

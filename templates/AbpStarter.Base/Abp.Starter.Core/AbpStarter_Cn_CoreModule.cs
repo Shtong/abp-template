@@ -1,16 +1,18 @@
-﻿namespace AbpStarter.Core
+﻿// Lelel_Cn_Pouf
+
+namespace Abp.Starter.Core
 {
     using Abp.Modules;
     using Abp.Zero;
     using Abp.Zero.Configuration;
-    using AbpStarter.Core.Authentication;
-    using AbpStarter.Core.MultiTenancy;
+    using Abp.Starter.Core.Authentication;
+    using Abp.Starter.Core.MultiTenancy;
 
     /// <summary>
     /// Defines the ABP module for the Core library
     /// </summary>
     [DependsOn(typeof(AbpZeroCoreModule))]
-    public class AbpStarterCoreModule : AbpModule
+    public class AbpStarter_Cn_CoreModule : AbpModule
     {
         /// <inheritdoc />
         public override void PreInitialize()

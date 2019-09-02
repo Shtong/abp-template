@@ -1,20 +1,20 @@
-﻿namespace AbpStarter.EntityFramework.AbpStarterContext
+﻿namespace Abp.Starter.EntityFramework.AbpStarter_Cn_Context
 {
     using Abp.Zero.EntityFrameworkCore;
-    using AbpStarter.Core.Authentication;
-    using AbpStarter.Core.MultiTenancy;
+    using Abp.Starter.Core.Authentication;
+    using Abp.Starter.Core.MultiTenancy;
     using Microsoft.EntityFrameworkCore;
 
     /// <summary>
     /// This is an EF Contextfor the main database of the application
     /// </summary>
-    public class AbpStarterDbContext : AbpZeroDbContext<Tenant, Role, User, AbpStarterDbContext>
+    public class AbpStarter_Cn_DbContext : AbpZeroDbContext<Tenant, Role, User, AbpStarter_Cn_DbContext>
     {
         /// <summary>
-        /// Creates a new instance of <see cref="AbpStarterDbContext"/>.
+        /// Creates a new instance of <see cref="AbpStarter_Cn_DbContext"/>.
         /// </summary>
         /// <param name="options">The context creation options</param>
-        public AbpStarterDbContext(DbContextOptions<AbpStarterDbContext> options)
+        public AbpStarter_Cn_DbContext(DbContextOptions<AbpStarter_Cn_DbContext> options)
             : base(options)
         {
         }

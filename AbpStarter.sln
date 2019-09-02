@@ -14,11 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{BB54106D-C
 		templates\AbpStarter.Base\.template.config\template.json = templates\AbpStarter.Base\.template.config\template.json
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpStarter.Core", "templates\AbpStarter.Base\AbpStarter.Core\AbpStarter.Core.csproj", "{90325A4F-9DA7-4F0C-A3AB-986FFD7387AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Starter.Core", "templates\AbpStarter.Base\Abp.Starter.Core\Abp.Starter.Core.csproj", "{90325A4F-9DA7-4F0C-A3AB-986FFD7387AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpStarter.EntityFramework", "templates\AbpStarter.Base\AbpStarter.EntityFramework\AbpStarter.EntityFramework.csproj", "{C2022A4E-9392-4F02-8BF8-D3951044DB72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Starter.EntityFramework", "templates\AbpStarter.Base\Abp.Starter.EntityFramework\Abp.Starter.EntityFramework.csproj", "{C2022A4E-9392-4F02-8BF8-D3951044DB72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpStarter.Application", "templates\AbpStarter.Base\AbpStarter.Application\AbpStarter.Application.csproj", "{D0B985F9-FAD2-4689-8928-E4C30A4F5B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Starter.Application", "templates\AbpStarter.Base\Abp.Starter.Application\Abp.Starter.Application.csproj", "{D0B985F9-FAD2-4689-8928-E4C30A4F5B1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
