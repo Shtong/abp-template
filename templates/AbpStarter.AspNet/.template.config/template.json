@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Shtong",
+  "classifications": [
+    "Common",
+    "Abp",
+    "ASP.NET"
+  ],
+  "identity": "AbpStarter.AspNet",
+  "name": "ABP Starter : ASP.NET Core Website",
+  "shortName": "abpaspnet",
+  "sourceName": "Abp.Starter",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.vs/**"
+      ]
+    }
+  ],
+  "symbols": {
+    "className": {
+      "type": "derived",
+      "replaces": "AbpStarter_Cn_",
+      "FileRename": "AbpStarter_Cn_",
+      "valueSource": "name",
+      "valueTransform": "classNameForm"
+    }
+  },
+  "forms": {
+    "classNameForm": {
+      "identifier": "replace",
+      "pattern": "[^a-zA-Z0-9_]",
+      "replacement": ""
+    }
+  }
+}

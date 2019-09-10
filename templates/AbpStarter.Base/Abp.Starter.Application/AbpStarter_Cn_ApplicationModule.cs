@@ -9,7 +9,7 @@
     /// Defines the ABP module for the Application library
     /// </summary>
     [DependsOn(
-        typeof(AbpStarterCoreModule),
+        typeof(AbpStarter_Cn_CoreModule),
         typeof(AbpAutoMapperModule))]
     public class AbpStarter_Cn_ApplicationModule : AbpModule
     {
